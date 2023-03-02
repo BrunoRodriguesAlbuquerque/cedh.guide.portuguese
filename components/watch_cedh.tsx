@@ -25,7 +25,7 @@ export function WatchCedhCard({
         rel="noreferrer"
         className="bg-white text-gray-900 px-3 py-2 text-center hover:bg-gray-100 transition-colors text-md"
       >
-        Watch
+        Assista
       </a>
     </div>
   );

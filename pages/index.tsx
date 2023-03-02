@@ -21,18 +21,18 @@ function CedhBanner() {
       }}
     >
       <h1 className="mb-12 max-w-xl text-6xl font-bold leading-tight lg:text-7xl">
-        cEDH is Commander, but <em>very</em> spicy.
+        cEDH é Commander, mas <em>bem</em> mais doido.
       </h1>
 
       <p className="text-2xl font-bold leading-relaxed">
-        cEDH is a <em>metagame</em> and <em>mindset</em> where:
+        cEDH é um <em>metagame</em> e uma <em>mentalidade</em> aonde:
       </p>
 
       <ol className="list-inside list-decimal space-y-2 pt-4 text-2xl font-bold">
-        <li>All strategies are accepted.</li>
-        <li>Decks majorly affect the game as early as Turn 1.</li>
-        <li>Players only make plays that help them win.</li>
-        <li>Proxies are encouraged.</li>
+        <li>Todas as estratégias são aceitas.</li>
+        <li>Decks podem afetar a mesa radicalmente desde o Turno 1.</li>
+        <li>Jogadores apenas fazem jogadas que os ajudem a vencer.</li>
+        <li>Proxies são bem vindas.</li>
       </ol>
 
       <div className="h-64 mt-8">
@@ -46,7 +46,7 @@ function Explanation() {
   return (
     <div className="mx-auto flex max-w-screen-xl flex-col items-center mb-12 md:mb-20">
       <h1 className="text-4xl font-bold mb-8 text-center">
-        A Longer Explanation:
+        Uma Explicação Mais Longa:
       </h1>
       <YouTubeEmbed src="https://www.youtube.com/embed/zH_ERuiwJWw" />
     </div>
@@ -56,7 +56,7 @@ function Explanation() {
 function ExampleGames() {
   return (
     <div className="mx-auto flex max-w-screen-xl flex-col items-center mb-12 md:mb-20">
-      <h1 className="text-4xl font-bold mb-8 text-center">Example Games:</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Jogos de Exemplo:</h1>
       <div className="w-full grid xl:grid-cols-2 gap-8 justify-center">
         <YouTubeEmbed src="https://www.youtube.com/embed/zpnY5FpAlbY" />
         <YouTubeEmbed src="https://www.youtube.com/embed/rqjYgspEaCk" />
@@ -69,51 +69,51 @@ function LearnMore() {
   return (
     <div className="mx-auto flex max-w-screen-xl flex-col items-center mb-12 md:mb-20 px-4">
       <h1 className="text-4xl font-bold mb-8">
-        Want to learn more and start playing?
+        Gostaria de aprender mais e começar a jogar?
       </h1>
 
       <ol className="list-inside list-decimal space-y-2 pt-4 text-2xl">
         <li>
           <Link href="/philosophy" className="underline">
-            Read up
+            Leia sobre
           </Link>{' '}
-          on the cEDH mindset and meta.
+          a mentalidade e o metagame do cEDH.
         </li>
         <li>
           <Link href="/decks" className="underline">
-            Browse some decklists
+            Veja algumas listas
           </Link>{' '}
-          for intriguing and proven strategies.
+          para estratégias testadas e aprovadas.
         </li>
         <li>
           <Link href="/stats" className="underline">
-            Study the statistics
+            Estude as estatísticas
           </Link>{' '}
-          to learn patterns and common cards.
+          para aprender os padrões e quais são as cartas mais jogadas.
         </li>
         <li>
           <Link href="/articles" className="underline">
-            Read evergreen articles
+            Leia artigos 
           </Link>{' '}
-          about cEDH.
+          sobre cEDH.
         </li>
         <li>
           <Link href="/watch" className="underline">
-            Watch videos
+            Assista vídeos
           </Link>{' '}
-          for stack wars, combat steps, and combos.
+          para guerras na pilha, etapas de combate, e combos.
         </li>
         <li>
           <Link href="/play" className="underline">
-            Play webcam games
+            Jogue por webcam
           </Link>{' '}
-          in inclusive Discord communities.
+          em comunidades inclusivas do Discord.
         </li>
         <li>
           <Link href="/track" className="underline">
-            Track your games
+            Monitore seus jogos
           </Link>{' '}
-          to help our community adapt and grow.
+          para ajudar a comunidade a aprender e crescer.
         </li>
       </ol>
     </div>
@@ -129,8 +129,8 @@ export default function Home() {
   return (
     <LazyMotion features={loadFeatures} strict>
       <NextSeo
-        title={t('what is cedh') ?? 'What is cEDH?'}
-        description="cEDH is Commander, but very spicy"
+        title={t('O que é cEDH?') ?? 'O que é cEDH?'}
+        description="cEDH é Commander, mas muito mais doido"
         openGraph={{
           url: 'https://cedh.guide',
           images: [{ url: 'https://cedh.guide/cedh-guide_card-banner_v2.png' }],

@@ -36,56 +36,56 @@ function TeamMembers() {
       <TeamMember img={kenHeadshot}>
         <h2>Ken Baumann</h2>
         <p>
-          <a href="https://kenbaumann.com/">Ken</a> is cedh.guide&apos;s
-          publisher. He runs Stacked EDH—and when his brain isn&apos;t eaten by
-          Magic, he writes books.
+          <a href="https://kenbaumann.com/">Ken</a> é um dos 
+          editores do cedh.guide. Ele comanda o Stacked EDH e quando o seu cérebro
+          não está sendo devorado por Magic, é escritor.
         </p>
       </TeamMember>
 
       <TeamMember img={minoHeadshot}>
         <h2>Mino</h2>
         <p>
-          <a href="https://twitter.com/its_mino_">Mino</a> is the backend
-          developer for the Stats page and data imports.
+        <a href="https://twitter.com/its_mino_">Mino</a> é o desenvolvedor
+          backend por trás da página de Estatísticas e importação de dados.
         </p>
       </TeamMember>
 
       <TeamMember img={mordHeadshot}>
         <h2>Mord</h2>
         <p>
-          <a href="https://linktr.ee/mordamen">Yehuda</a>, aka Mord, is a
-          digital alterist as well as a co-author and admin for the cEDH Elsha
-          primer list, a moderator for the Estrid cEDH discord and a Senior
-          Marketing Specialist for Monarch Media.
+        <a href="https://linktr.ee/mordamen">Yehuda</a>, também conhecido como Mord, é
+          um artista digital assim como co-autor e administrador da cartilha da lista
+          cEDH da Elsha, moderador do Discord da Estrid cEDH e um Especialista de Marketing
+          Sênior para a Monarch Media.
         </p>
       </TeamMember>
 
       <TeamMember img={ryanHeadshot}>
         <h2>Ryan Delaney</h2>
         <p>
-          <a href="https://rdel.dev">Ryan</a> is cedh.guide&apos;s frontend
-          developer. Software engineer at a startup by day and EDH enthusiast
-          all the time, he&apos;s having a lot of fun with this site.
+        <a href="https://rdel.dev">Ryan</a> é o desenvolvedor frontend do site.
+        É um Desenvolvedor em uma startup de dia e um entusiasta de EDH o tempo inteiro,
+        está se divertindo muito com esse site.
         </p>
       </TeamMember>
 
       <TeamMember img={spleenfaceHeadshot}>
         <h2>Spleenface</h2>
         <p>
-          <a href="https://twitter.com/Spleenface">Morgan</a>, aka Spleenface,
-          is a cEDH tournament grinder, cohost of the Into the North podcast,
-          member of The Mind Sculptors and moderator of both the CompetitiveEDH
-          subreddit and cEDH Nexus Discord.
+          <a href="https://twitter.com/Spleenface">Morgan</a>, também conhecido como Spleenface,
+          é um caçador de torneios cEDH, co-apresentador do podcast Into the North, membro dos grupo
+          The Mind Sculptors e moderador tanto do subreddit CompetitiveEDH como do 
+          Discord do cEDH Nexus.
         </p>
       </TeamMember>
 
       <TeamMember img={squirrelmobHeadshot}>
         <h2>Squirrelmob</h2>
         <p>
-          <a href="https://twitter.com/SquirrelmobMTG">Squirrelmob</a>, aka
-          James, is the curator of the cEDH Metagame Project, a Manager on the
-          cEDH Decklist Database, and on-screen caster for Monarch Events. That
-          is, when he&apos;s not scraping together a paycheck teaching.
+          <a href="https://twitter.com/SquirrelmobMTG">Squirrelmob</a>, também conhecido
+          como James, é o curador do Projeto Metagame cEDH, administrador do cEDH Decklist
+          Database, e um dos locutores das transmissões da Monarch Events. Isso é,
+          quando ele não está lutando por um contracheque ensinando.
         </p>
       </TeamMember>
     </div>
@@ -96,12 +96,12 @@ export default function TeamsPage() {
   return (
     <>
       <Head>
-        <title>What is the cEDH metagame?</title>
+        <title>O que é o cEDH metagame?</title>
       </Head>
 
       <PageHeader />
       <div className="prose lg:prose-xl prose-invert mx-auto prose-h1:text-center prose-h1:underline mb-12 xl:mb-24">
-        <h1>Who makes cedh.guide?</h1>
+        <h1>Quem faz o cedh.guide?</h1>
       </div>
       <TeamMembers />
     </>

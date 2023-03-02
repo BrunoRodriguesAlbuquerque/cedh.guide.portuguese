@@ -12,14 +12,14 @@ import {
 import { useTranslation } from 'react-i18next';
 
 const LINKS = [
-  { name: 'Philosophy', href: '/philosophy' },
+  { name: 'Filosofia', href: '/philosophy' },
   { name: 'Decks', href: '/decks' },
-  { name: 'Stats', href: '/stats' },
-  { name: 'Articles', href: '/articles' },
-  { name: 'Watch', href: '/watch' },
-  { name: 'Play', href: '/play' },
-  { name: 'Track', href: '/track' },
-  { name: 'Team', href: '/team' },
+  { name: 'Estatísticas', href: '/stats' },
+  { name: 'Artigos', href: '/articles' },
+  { name: 'Assista', href: '/watch' },
+  { name: 'Jogue', href: '/play' },
+  { name: 'Monitore', href: '/track' },
+  { name: 'Time', href: '/team' },
 ];
 
 const MobileNavigationMenuItemLink = forwardRef<

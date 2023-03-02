@@ -14,7 +14,7 @@ export default function ArticlesIndex(props: ArticlesIndexProps) {
       title="Articles"
       description={`The latest: ${props.articles[0].title}`}
     >
-      <h1>Articles</h1>
+      <h1>Artigos</h1>
       <div className="grid gap-4 xl:grid-cols-2">
         {props.articles.map((article) => {
           return (
@@ -29,7 +29,7 @@ export default function ArticlesIndex(props: ArticlesIndexProps) {
               )}
               {article.imageCopyright && (
                 <span className="text-xs pt-2">
-                  Image copyright {article.imageCopyright}
+                  Copyright de imagem {article.imageCopyright}
                 </span>
               )}
 
